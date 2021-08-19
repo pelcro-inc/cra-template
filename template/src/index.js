@@ -4,19 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-const pelcroDomain =
-  process.env.PELCRO_ENVIRONMENT === "production"
-    ? "https://pelcro.com"
-    : "https://staging.pelcro.com";
-
 let Pelcro = window.Pelcro || (window.Pelcro = {});
 // Your pelcro site ID
-Pelcro.siteid = process.env.PELCRO_SITE_ID;
+Pelcro.siteid = "374";
 Pelcro.environment = {
   // Replace with a real stripe key once on production
-  stripe: process.env.STRIPE_KEY,
+  stripe: "pk_test_aThAAdvPHgIdAziZweywBWNk",
   // Use "https://pelcro.com" for the production account
-  domain: pelcroDomain,
+  domain: "https://staging.pelcro.com",
   // empty as we're using React as the UI bundle
   ui: " ",
 };

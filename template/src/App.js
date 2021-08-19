@@ -41,8 +41,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. <br />
-          Edit your Pelcro site config in <code>src/index.js</code>
+          Edit your Pelcro site config in the <code>.env</code> file
         </p>
 
         <button onClick={() => switchView("login")}>Login</button>
