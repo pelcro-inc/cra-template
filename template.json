@@ -1,0 +1,21 @@
+{
+  "package": {
+    "dependencies": {
+      "@pelcro/react-pelcro-js": "latest",
+      "eslint-plugin-jsx-a11y": "^6.2.3"
+    },
+    "scripts": {},
+    "eslintConfig": {
+      "extends": ["react-app", "plugin:jsx-a11y/recommended"],
+      "plugins": ["jsx-a11y"]
+    },
+    "babel": {
+      "presets": ["@babel/preset-env", "@babel/preset-react"],
+      "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-optional-chaining",
+        "@babel/plugin-proposal-nullish-coalescing-operator"
+      ]
+    }
+  }
+}
