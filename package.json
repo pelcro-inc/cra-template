@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-pelcro",
+  "name": "@pelcro/cra-template-pelcro",
   "description": "A quick start Create React App template with Pelcro elements",
   "version": "0.1.0",
   "private": false,
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pelcro-inc/cra-template",
+    "url": "git+https://github.com/pelcro-inc/cra-template.git",
     "directory": "/"
   },
   "dependencies": {
@@ -49,5 +49,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/pelcro-inc/cra-template/issues"
+  },
+  "homepage": "https://github.com/pelcro-inc/cra-template#readme",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
 }
