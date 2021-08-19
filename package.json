@@ -1,6 +1,6 @@
 {
   "name": "@pelcro/cra-template-pelcro",
-  "description": "A quick start Create React App template with Pelcro elements",
+  "description": "A quick start Create React App template using Pelcro elements",
   "version": "0.1.0",
   "private": false,
   "files": [

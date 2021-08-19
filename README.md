@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A quick start [Create React App](https://github.com/facebook/create-react-app) template using [Pelcro elements](https://github.com/pelcro-inc/react-pelcro-js)
 
 ## Available Scripts
 
