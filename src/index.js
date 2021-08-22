@@ -2,15 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-// Edit your Pelcro config in ./.env file
+/**
+ *  Edit your Pelcro config in the .env file
+ */
 
 let Pelcro = window.Pelcro || (window.Pelcro = {});
 
-// Your pelcro site ID
 Pelcro.siteid = process.env.REACT_APP_PELCRO_SITE_ID;
 Pelcro.environment = {
   stripe: process.env.REACT_APP_STRIPE_KEY,
-  // 'staging' || 'production'
   domain:
     process.env.REACT_APP_PELCRO_ENVIRONMENT === "production"
       ? "https://www.pelcro.com"
