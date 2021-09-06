@@ -15,6 +15,20 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <!-- Pelcro SDK script -->
+  <script>
+    var Pelcro = window.Pelcro || (window.Pelcro = {});
+
+    Pelcro.siteid = "%REACT_APP_PELCRO_SITE_ID%";
+    Pelcro.environment = {
+      stripe: "%REACT_APP_STRIPE_KEY%",
+      domain:
+        "%REACT_APP_PELCRO_ENVIRONMENT%" === "production"
+          ? "https://www.pelcro.com"
+          : "https://staging.pelcro.com",
+      // empty as we're using React as the UI bundle
+      ui: " ",
+    };
+  </script>
 
   <% if (process.env.REACT_APP_PELCRO_ENVIRONMENT==='production' ) { %>
     <script src="https://js.pelcro.com/sdk/main.min.js"></script>
