@@ -1512,10 +1512,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@pelcro/react-pelcro-js@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@pelcro/react-pelcro-js/-/react-pelcro-js-2.1.1.tgz#1a76fff32a2acbe75d1a6ceb13331064f9920cb2"
-  integrity sha512-mfx8wyWbxMz5AByGWGu1Ff4v1ZGCYKr12BJ0JdvAM2JPew9hgW7ppOYXrH2Kl1yx63yBfpFAxAr5bqPnTbdK/Q==
+"@pelcro/react-pelcro-js@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@pelcro/react-pelcro-js/-/react-pelcro-js-2.2.1.tgz#e98891aef2066547836b426eb8741e8616c3fcd5"
+  integrity sha512-37XETqY4eaRUGlNPa1tr3OYO+PljzVk76SvwXhJMQrBPS9fYglpJmZMCpDLafyxkzHxYeLY86VWo27kblJxHig==
   dependencies:
     "@headlessui/react" "^0.3.0"
     i18next "^19.1.0"
