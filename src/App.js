@@ -11,6 +11,7 @@ import {
   SubscriptionCreateModal,
   SubscriptionRenewModal,
   NewsLetter,
+  NewsletterUpdateModal,
   PaymentSuccessModal,
   MeterModal,
   UserUpdateModal,
@@ -67,6 +68,7 @@ function App() {
 
         <SelectModal />
         <NewsLetter />
+        <NewsletterUpdateModal />
 
         <AddressCreateModal />
         <AddressSelectModal />
